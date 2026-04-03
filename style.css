@@ -1,0 +1,83 @@
+/* On importe le fichier qui est dans le dossier components */
+@import url("components/banner.css");
+
+
+.container {
+  width: 700px; /* set the width of your container */
+  margin: 40px auto; /* set margins: top/bottom: 40px; left/right: automatic */
+}
+
+/* Style du corps de page pour le fond gris clair */
+body {
+  background-color: #F7F7F7;
+  color: #333333;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 40px 0;
+}
+
+/* Conteneur principal pour centrer le contenu */
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+/* Style des cartes blanches */
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0;
+  text-align: center; /* Pour centrer le texte et les images */
+}
+
+/* Style spécifique pour les images de profil */
+.card-white img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Rend l'image ronde comme sur l'exemple */
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+/* Typographie */
+h1 {
+  color: #03AED2; /* Violet similaire au bouton */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  color: #F45B26;
+}
+
+/* Style du lien (bouton) */
+a {
+  background-color: #D12052;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #575ED8;
+}
+
+/* Liste sans puces pour un look plus propre */
+ul, ol {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
